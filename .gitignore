@@ -1,0 +1,53 @@
+# Python related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Streamlit specific
+/.streamlit/
+*.py.swp
+
+# Environment variables
+.env
+
+# Pinecone configuration files (if any)
+*.json
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pytest
+.cache/
+*.cover
+*.hypothesis/
+.coverage
+*.coverage.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Other files
+*.db
+*.sqlite3
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
